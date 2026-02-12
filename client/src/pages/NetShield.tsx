@@ -1,6 +1,6 @@
 import { useSEO } from "@/hooks/useSEO";
 import { DownloadButton } from "@/components/DownloadButton";
-import { AppFooter } from "@/components/AppNav";
+import { AppNav, AppFooter } from "@/components/AppNav";
 import { motion } from "framer-motion";
 import { Activity, Shield, Eye, Zap, BarChart3, Lock, Wifi, Gauge } from "lucide-react";
 
@@ -13,6 +13,7 @@ export default function NetShield() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-cyan-950 to-slate-950">
+      <AppNav currentApp="NetShield" />
       {/* Hero Section — Data Dashboard Visual */}
       <section className="relative overflow-hidden px-4 py-20 sm:py-32">
         <div className="mx-auto max-w-6xl">
