@@ -1,0 +1,53 @@
+# TODO
+
+- [x] Fix DMG download filename
+- [x] Add contact info to footer
+- [x] Update tagline
+- [x] Fix title — too short (7 chars), needs 30-60 chars
+- [x] Add meta keywords
+- [x] Fix 3 images missing alt text
+- [x] Add sitemap.xml
+- [x] Add robots.txt
+- [x] Add Open Graph meta tags
+- [x] Add meta description
+- [x] Fix DMG download filenames — server-side proxy route with Content-Disposition header
+- [x] Add SonicAtlas as 10th app — upload assets to CDN
+- [x] Build SonicAtlas page with full design
+- [x] Add SonicAtlas to AppNav, routes, download proxy, sitemap, homepage grid
+- [x] Add SEO meta tags for SonicAtlas page
+- [x] Upload new StreamFlix DMG to CDN and replace old DMG URL in download proxy
+- [x] Add What's New / changelog section to StreamFlix page with v1.1 fixes
+- [x] Add disclaimer section to StreamFlix page
+- [x] Audit StreamFlix page copy for risky wording (remove "free movies", "watch movies" etc.)
+- [x] Create Legal/Disclaimer page at /legal
+- [x] Create Terms of Use page at /terms
+- [x] Add legal page routes to App.tsx
+- [x] Add Legal and Terms links to site footers
+- [x] Scope Terms of Use content/liability disclaimers to StreamFlix only (not all apps)
+- [x] Scope Legal Disclaimer page to StreamFlix only (not all apps)
+- [x] Create reusable FeedbackSection component with Telegram deep links
+- [x] Add pre-made templates: Bug Report, Feature Request, General Feedback
+- [x] Embed FeedbackSection on all 10 app pages
+- [x] Re-upload all 10 DMG files to fresh S3 CDN URLs
+- [x] Update all download links across the website with new URLs
+- [x] Verify downloads work correctly
+- [x] Fix download proxy — buffer full file, use correct MIME type (application/x-apple-diskimage), add no-transform headers
+- [x] Bypass server proxy — link DownloadButton directly to CDN URLs to avoid Manus hosting proxy corruption
+- [x] Create GitHub repos for all 10 apps (no source code, no Manus mention)
+- [x] Upload DMGs as GitHub Releases with proper filenames and .icns icons
+- [x] Update all website download URLs to point to GitHub Releases
+- [x] Remove server-side download proxy entirely
+- [x] Use GitHub Actions macOS runner to rebuild DMGs with proper .icns icons
+- [x] Update GitHub Releases with rebuilt DMGs
+- [x] Create GitHub repo for NotchBin with .pkg release
+- [x] Upload NotchBin screenshots and video to CDN
+- [x] Build NotchBin app page with full design
+- [x] Add NotchBin to AppNav, routes, sitemap, homepage grid
+- [x] Add Gatekeeper bypass instructions (PKG-specific) to NotchBin page
+- [x] Rebrand all 'free' references to 'independent/indie' across all pages
+- [x] Fix homepage SEO title to be between 30-60 characters
+- [x] Add Faceless.video affiliate banner to website (referral link: https://faceless.video/?ref=MelodiQ)
+- [x] Upload NetShield screenshot and icon to CDN
+- [x] Create GitHub repo for NetShield with DMG release
+- [x] Build unique NetShield landing page (different design from other app pages)
+- [x] Add NetShield to AppNav, routes, sitemap, homepage grid
