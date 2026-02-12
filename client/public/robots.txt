@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://melodiq.sbs/sitemap.xml
+Sitemap: https://melodiq-site.pages.dev/sitemap.xml
