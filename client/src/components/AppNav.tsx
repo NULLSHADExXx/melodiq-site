@@ -135,7 +135,7 @@ export const ALL_APPS: AppInfo[] = [
     path: "/netshield",
     icon: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663253409814/hiRgdZnLjoyFXEtB.png",
     accent: "#06B6D4",
-    dmg: "https://github.com/NULLSHADExXx/netshield/releases/download/v1.0.0-beta/NetShield.dmg",
+    dmg: "https://github.com/NULLSHADExXx/netshield/releases/download/v1.0.0/NetShield.dmg",
     dmgFilename: "NetShield.dmg",
     tagline: "Real-time network monitoring in your menu bar.",
     category: "Utility",
